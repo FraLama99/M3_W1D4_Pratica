@@ -1,0 +1,118 @@
+body {
+  display: flex;
+  flex-direction: column;
+}
+header {
+  display: block;
+}
+#containerCard {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+#card {
+  display: flex;
+  flex-direction: column;
+  max-width: 380px;
+  max-height: 800px;
+  background-color: bisque;
+  border-radius: 75px;
+  align-items: center;
+  color: #743e21;
+  overflow: hidden;
+  margin-bottom: 15px;
+  button {
+    width: auto;
+    height: 40px;
+    padding: 0 20px 0 20px;
+    margin-bottom: 20px;
+    background-color: #f3df85;
+    border: none;
+    border-radius: 20px;
+  }
+}
+.containerTitle {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  h2 {
+    margin-bottom: 0;
+  }
+  h3 {
+    margin-top: 10px;
+  }
+}
+#card img {
+  object-fit: cover;
+  width: 400px;
+  height: 400px;
+}
+#informationCard {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+#navigationBar {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 10px;
+  padding: 20px;
+  background-color: #f3e8b7;
+  border-radius: 50px;
+  margin-bottom: 15px;
+}
+#logo {
+  max-width: 50px;
+}
+.buttonNav {
+  width: auto;
+  height: 40px;
+  padding: 10px 20px 10px 20px;
+  margin: 0;
+  background-color: #f3df85;
+  border: none;
+  border-radius: 20px;
+  color: #743e21;
+}
+.buttonNavLogo {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: center;
+  height: auto;
+  width: auto;
+
+  padding: 10px 20px 10px 20px;
+  margin: 0;
+  background-color: #f3df85;
+  border: none;
+  border-radius: 50px;
+  color: #743e21;
+}
+#articolo {
+  background-color: #f3e8b7;
+  padding: 20px;
+  display: flex;
+  flex-direction: row-reverse;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  width: fit-content;
+  border-radius: 40px;
+
+  img {
+    max-width: 38%;
+    min-width: 300px;
+  }
+}
+.subArticolo {
+  max-width: 58%;
+  min-width: 300px;
+  margin: 10px;
+}
